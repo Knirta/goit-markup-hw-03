@@ -54,6 +54,17 @@ h6 {
   padding-right: 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*header*/
 
 .header > .container {
@@ -147,7 +158,6 @@ h6 {
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -162,25 +172,34 @@ h6 {
   font-size: 16px;
   line-height: 1.875;
   font-weight: 700;
-  text-align: center;
   cursor: pointer;
 }
 
 /* advantages */
 
-.hidden {
-  visibility: hidden;
+.advantages > .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.advantages .title {
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list .item + .item {
+  margin-left: 30px;
+}
+
+.advantages-list .title {
+  margin-bottom: 10px;
+
   font-size: var(--font-size);
-  line-height: 1.17;
+  line-height: 1.14;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
-.advantages .text {
+.advantages-list .text {
   line-height: 2;
 }
 
