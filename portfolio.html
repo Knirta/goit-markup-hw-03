@@ -44,121 +44,153 @@
     </header>
     <main>
       <section>
-        <h1 class="hidden">Портфолио</h1>
-        <ul>
-          <li>
-            <button type="button" class="filter-item current">Все</button>
-          </li>
-          <li><button type="button" class="filter-item">Веб-сайты</button></li>
-          <li><button type="button" class="filter-item">Приложения</button></li>
-          <li><button type="button" class="filter-item">Дизайн</button></li>
-          <li><button type="button" class="filter-item">Маркетинг</button></li>
-        </ul>
-        <ul class="portfolio">
-          <li>
-            <a href="">
-              <img
-                src="./images/web-site.jpg"
-                width="370"
-                alt="открытый ноутбук"
-              />
-              <h2 class="title">Технокряк</h2>
-              <p class="text">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/poster-basketball.jpg"
-                width="370"
-                alt="двое игроков в баскетбол с мячем"
-              />
-              <h2 class="title">Постер New Orlean vs Golden Star</h2>
-              <p class="text">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/restaurant-label.jpg"
-                width="370"
-                alt="лого ресторана морской еды"
-              />
-              <h2 class="title">Ресторан Seafood</h2>
-              <p class="text">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/headphones.jpg"
-                width="370"
-                alt="черные наушники"
-              />
-              <h2 class="title">Проект Prime</h2>
-              <p class="text">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/boxes.jpg"
-                width="370"
-                alt="две небольшие картонные коробки"
-              />
-              <h2 class="title">Проект Boxes</h2>
-              <p class="text">Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/screen.jpg"
-                width="370"
-                alt="черный включенный экран"
-              />
-              <h2 class="title">Inspiration has no Borders</h2>
-              <p class="text">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/journal.jpg"
-                width="370"
-                alt="раскрытый журнал"
-              />
-              <h2 class="title">Издание Limited Edition</h2>
-              <p class="text">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/label.jpg" alt="белая этикетка" />
-              <h2 class="title">Проект LAB</h2>
-              <p class="text">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/opened-notebook.jpg"
-                alt="пальцы рук на клавиатуре ноутбука"
-              />
-              <h2 class="title">Growing Business</h2>
-              <p class="text">Приложение</p>
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="visually-hidden">Портфолио</h1>
+          <ul class="filter">
+            <li class="item">
+              <button type="button" class="button current">Все</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button">Приложения</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button">Дизайн</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="portfolio-list">
+            <li class="item">
+              <a class="link" href="">
+                <img
+                  src="./images/web-site.jpg"
+                  width="370"
+                  alt="открытый ноутбук"
+                />
+                <div class="content">
+                  <h2 class="title">Технокряк</h2>
+                  <p class="text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">
+                <img
+                  src="./images/poster-basketball.jpg"
+                  width="370"
+                  alt="двое игроков в баскетбол с мячем"
+                />
+                <div class="content">
+                  <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                  <p class="text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">
+                <img
+                  src="./images/restaurant-label.jpg"
+                  width="370"
+                  alt="лого ресторана морской еды"
+                />
+                <div class="content">
+                  <h2 class="title">Ресторан Seafood</h2>
+                  <p class="text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">
+                <img
+                  src="./images/headphones.jpg"
+                  width="370"
+                  alt="черные наушники"
+                />
+                <div class="content">
+                  <h2 class="title">Проект Prime</h2>
+                  <p class="text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">
+                <img
+                  src="./images/boxes.jpg"
+                  width="370"
+                  alt="две небольшие картонные коробки"
+                />
+                <div class="content">
+                  <h2 class="title">Проект Boxes</h2>
+                  <p class="text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">
+                <img
+                  src="./images/screen.jpg"
+                  width="370"
+                  alt="черный включенный экран"
+                />
+                <div class="content">
+                  <h2 class="title">Inspiration has no Borders</h2>
+                  <p class="text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">
+                <img
+                  src="./images/journal.jpg"
+                  width="370"
+                  alt="раскрытый журнал"
+                />
+                <div class="content">
+                  <h2 class="title">Издание Limited Edition</h2>
+                  <p class="text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">
+                <img src="./images/label.jpg" alt="белая этикетка" />
+                <div class="content">
+                  <h2 class="title">Проект LAB</h2>
+                  <p class="text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">
+                <img
+                  src="./images/opened-notebook.jpg"
+                  alt="пальцы рук на клавиатуре ноутбука"
+                />
+                <div class="content">
+                  <h2 class="title">Growing Business</h2>
+                  <p class="text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <a href="/" class="logo" lang="en"><span>Web</span>Studio</a>
-      <address class="contacts">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="mailto:info@example.com" class="link">info@example.com</a>
-        <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a href="/" class="logo" lang="en"><span>Web</span>Studio</a>
+        <address class="footer-contacts">
+          <p class="item">г. Киев, пр-т Леси Украинки, 26</p>
+          <a class="item link" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="item link" href="tel:+380991111111">+38 099 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
