@@ -275,12 +275,18 @@ img {
 
 /* Footer */
 
-footer {
+.footer {
   background-color: var(--dark-background-color);
   color: var(--primary-background-color);
 }
 
-footer .logo {
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .logo {
+  margin-bottom: 20px;
   color: var(--primary-background-color);
 }
 
@@ -288,7 +294,13 @@ footer .logo {
   font-style: normal;
 }
 
+.container .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .contacts .link {
+  display: block;
+
   color: rgba(255, 255, 255, 0.6);
 }
 
